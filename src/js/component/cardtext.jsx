@@ -2,7 +2,7 @@ import React from "react";
 
 const card = () =>{
     return(
-<div className="card m-2" style={{width: "18rem"}}>
+<div className="card m-1" style={{width: "18rem"}}>
   <img src="https://ofipapelmalaga.com/uploads/highlights/catalogo-ejemplo.gif" className="card-img-top" alt=""/>
   <div className="card-body">
     <h5 className="card-title">Card title</h5>

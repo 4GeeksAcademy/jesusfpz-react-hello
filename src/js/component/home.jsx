@@ -1,6 +1,6 @@
 // Cuando colocamos la web en modo telefono 
 //el droptown que se forma no pude cambiarle el color a las 3 rayitas que tendrian que verse en blanco.
-// Entonces se ve en color negro. del resto creo tenerlo todo Okey.
+// Entonces se ve en color negro. del resto creo tenerlo todo Okey. 
 
 import React from "react";
 import Navbar from "./navbar";
@@ -13,30 +13,32 @@ import Footer from "./footer";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		
+	<div>
 		<Navbar/>
+	<div class="container">
 		<FirstCard/>
 		
-		<div class="container text-center">
-  <div class="row row-cols-auto ">
-    <div class="col ">
-	<Card/>
-    </div>
-    <div class="col">
-	<Card/>
-    </div>
-    <div class="col">
-	<Card/>
-    </div>
+  <div class="row mt-2 mb-2">
+    	<div class="col ">
+			<Card/>
+    	</div>
+    	  <div class="col">
+			<Card/>
+    	</div>
+    	  <div class="col">
+			<Card/>
+    	</div>
 	<div class="col">
-	<Card/>
-    </div>
-  </div>
-</div>
+			<Card/>
+    
+  	   </div>
+	</div>
+   </div>
 <div>
-	<Footer/>
+	      <Footer/>
+    </div>
 </div>
-		</div>
 
 	)
 	}
